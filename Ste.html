@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <title>
+        My Website
+        </title>
+
+        <style>
+            @keyframes colorChange {
+                0% { color: blue; }
+                50% { color: red; }
+                100% { color: green; }
+            }
+    
+            @keyframes slideIn {
+                0% { transform: translateX(-100%); }
+                100% { transform: translateX(0); }
+            }
+    
+            .animated-header {
+                font-size: 36px;
+                font-weight: bold;
+                animation: colorChange 4s infinite, slideIn 2s ease-in-out;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="animated-header">Stechie Collections!</h1> <hr>
+    </head>
+        
+            
+            <h1 style="color:blue;">Who are we?</h1>
+            
+            <p>We are your one stop shop for all your electronics and households</p>
+            <p>We offer delivery services accross the country</p>
+              <p>Customer Satisfaction is our delight!</p>
+
+
+              <h1 style="color:rgb(255, 0, 72);">Know our products</h1>
+
+              <style>
+                .image-container {
+                    display: flex; /* Align images horizontally */
+                    justify-content: space-between; /* Add equal spacing between images */
+                    padding: 120px; /* Add padding around the container */
+                }
+        
+                .image-container img {
+                    margin: 100px; /* Add space around each image */
+                    width: 350px; /* Set a specific width for the images */
+                    height: auto; /* Maintain aspect ratio */
+                }
+            </style>
+              
+              <nav>
+                <li><a href="#">Electronics</a></li>
+                     <img><img src="cooker.jpg" alt="Free Standing Electric Cookers"width="200" height="200">
+                     <img><img src="Samsung.jpg.webp" alt="Smart Televisions"width="200" height="200"> <br>
+
+                <li><a href="#">Phones</a></li>
+                <img><img src="Tecno Spark.jpeg" alt="Tecno Spark 30"width="150" height="150">
+                     <img><img src="Camon 40.jpeg" alt="Tecno Camon 40"width="200" height="200">
+
+              </nav>
+              <h1 style="color:blue;">Ready to order?</h1>
+              
+              <p>Fill in your details below</p>
+              <form action="submit_form.php" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required><br><br>
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br><br>
+          
+              <label for="Location">Location:</label>
+              <input type="Location" id="location" name="Location" required><br><br>
+              <label for="Delivery Time">Delivery Time:</label><br>
+              <select id="Delivery Time" name="Delivery Time">
+                  <option value="10.00-11.00 A.M">10.00-11.00 A.M</option>
+                  <option value="12.00-2.00O P.M">12.00-2.00O P.M</option>
+                  <option value="4.00-6.00 P.M">4.00-6.00 P.M</option> <br><br>
+          
+                   <br><input type="submit" value="Submit">
+              
+                </form>
+                <footer>
+                    <p>&copy; 2025 Stechie Collections. All rights reserved.</p>
+                    <p>Contact us: <a href="mailto:customerservice@stechiecollections.org">customerservice@stechiecollections.org</a> <br>
+                        | Phone: +254738 625 455</p>
+                    <p>
+                        Follow us on:
+                        <a href="https://facebook.com/stechiecollections" target="_Stechie Collections">Facebook</a> |
+                        <a href="https://twitter.com/sishstella" target="_Sishstella">Twitter</a> |
+                        <a href="https://instagram.com/yourprofile" target="_Stechie Collections">Instagram</a> |
+                        <a href="https://tiktok.com/stechiecollections" target="_Stechie Collections">TikTok</a>
+                    </p>
+                </footer>
+    
+        </body>
+    
+</html>
